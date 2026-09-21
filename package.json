@@ -1,0 +1,63 @@
+{
+  "name": "ai-visibility-checker",
+  "version": "1.0.0",
+  "description": "Technical SEO / GEO auditing tool for AI search crawlability and page clarity — by Himat Technologies",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himat-technology/ai-visibility-checker.git"
+  },
+  "keywords": [
+    "ai-visibility",
+    "seo",
+    "geo",
+    "robots.txt",
+    "llms.txt",
+    "structured-data"
+  ],
+  "author": "Himat Technologies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/himat-technology/ai-visibility-checker/issues"
+  },
+  "homepage": "https://github.com/himat-technology/ai-visibility-checker#readme",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.47.0",
+    "next": "^16.3.5",
+    "pdfkit": "^0.20.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.2",
+    "@types/pdfkit": "^0.17.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.5",
+    "jsdom": "^30.1.0",
+    "postcss": "^8.5.28",
+    "prettier": "^3.9.8",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.1"
+  }
+}
